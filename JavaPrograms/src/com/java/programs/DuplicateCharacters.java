@@ -23,7 +23,6 @@ public class DuplicateCharacters {
 				table.put(output, ++count); 
 			} 
 		}
-		System.out.println(table);
 		Set<Entry<Character, Integer>> entrySet = table.entrySet();
 		for (Entry<Character, Integer> entry : entrySet) 
 		{
